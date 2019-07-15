@@ -8,7 +8,7 @@ weechat-pushbullet.py hooks notify_private and notify_highlight.
 
 ```
 $ curl -o ~/.weechat/python/weechat-pushbullet.py https://raw.githubusercontent.com/soh335/weechat-pushbullet/master/weechat-pushbullet.py
-/set plugins.var.python.pushbullet.token "<API_TOKEN>"
+/set plugins.var.python.weechat-pushbullet.token "<API_TOKEN>"
 /script load weechat-pushbullet.py
 ```
 
